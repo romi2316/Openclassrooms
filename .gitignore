@@ -1,0 +1,10 @@
+# Ignore mysql socket file
+mysql/mysql.sock
+
+# Ignore other MySQL-related files that shouldn't be tracked
+mysql/*.cnf
+mysql/*.index
+mysql/*.log
+
+# Add other unnecessary files you don't want to track
+node_modules/
