@@ -58,6 +58,7 @@ describe("API Tests", () => {
             url: `/products/${productId}`,
           }).then((response) => { 
             expect(response.status).to.equal(200);
+            cy.log(response.body)
         });
     });
 
