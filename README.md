@@ -1,5 +1,6 @@
 # Installation du projet
 1-Download or clone the repository.
+
 2-From a terminal opened in the project folder, run the following command : `sudo docker-compose up --build`
 
 # Tests Cypress
